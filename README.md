@@ -1,5 +1,7 @@
 #To run the project
-Right Click on the project --> Run As--> Springboot Application
+mvn clean install verify
+
+mvn exec:java
 
 #Test with Curl or Swagger UI
 Swagger UI - http://localhost:8080/swagger-ui.html#/
