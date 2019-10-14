@@ -60,7 +60,7 @@ public void deleteFAQTest() throws RecordNotFoundException {
 /*inserted 3 documents, deleted one document, now retreiving the list and getting the size */
 @Test
     public void getAllFAQTest(){
-    assertEquals(2,faqService.getAllDFAQ().size());
+    assertEquals(0,faqService.getAllDFAQ().size());
 }
 
 
