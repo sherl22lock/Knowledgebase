@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = KnowledgebaseApplication.class)
+@SpringBootTest(classes = KnowledgebaseApplication.class) 
 public class KnowledgebaseApplicationIntegrationTests {
 
 
